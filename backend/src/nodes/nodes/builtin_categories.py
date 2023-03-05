@@ -9,9 +9,11 @@ from .material_textures import category as MaterialTexturesCategory
 from .ncnn import category as NCNNCategory
 from .onnx import category as ONNXCategory
 from .pytorch import category as PyTorchCategory
+from .sd_extension import category as SDExtensionCategory
 from .utility import category as UtilityCategory
 
 builtin_categories = [
+    SDExtensionCategory,
     ImageCategory,
     ImageDimensionCategory,
     ImageAdjustmentCategory,
